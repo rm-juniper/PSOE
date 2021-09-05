@@ -29,7 +29,7 @@ function display_output(){
 #
 function packages_arch(){
 	clear
-	sudo pacman -Syu git xorg xorg-xinit xorg-xprop curl dunst neofetch htop gvfs gvfs-smb samba sshfs openssh network-manager-applet acpilight xautolock xfce4-screenshooter freetype2 libx11 libxft libxinerama glib2 gcr webkit2gtk ca-certificates nitrogen lxappearance picom tamsyn-font terminus-font dina-font gnu-free-fonts noto-fonts ttf-bitstream-vera ttf-dejavu noto-fonts-emoji adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts otf-ipafont ttf-hanazono ttf-sazanami imlib2 ttf-font-awesome pcmanfm
+	sudo pacman -Syu git xorg xorg-xinit xorg-xprop curl dunst neofetch htop gvfs gvfs-smb samba sshfs openssh network-manager-applet acpilight xautolock xfce4-screenshooter freetype2 libx11 libxft libxinerama glib2 gcr webkit2gtk ca-certificates nitrogen lxappearance picom tamsyn-font terminus-font dina-font gnu-free-fonts noto-fonts ttf-bitstream-vera ttf-dejavu noto-fonts-emoji adobe-source-han-sans-jp-fonts adobe-source-han-serif-jp-fonts otf-ipafont ttf-hanazono ttf-sazanami imlib2 ttf-font-awesome pcmanfm pamixer
 }
 
 function packages_ubuntu(){
