@@ -1,0 +1,7 @@
+#!/bin/sh
+
+xmenu <<EOF | sh &
+Are You Sure?
+	Yes		killall xinit
+	No	
+EOF

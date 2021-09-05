@@ -1,0 +1,7 @@
+!default:
+*.font: = monospace:size=10
+*.background: #222222
+*.foreground: #bbbbbb
+*.selbackground: #005577
+*.selforeground: #eeeeee
+*.border: #005577

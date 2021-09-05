@@ -1,0 +1,19 @@
+#!/bin/sh
+
+xmenu <<EOF | sh &
+Explorer			pcmanfm
+
+Appearance
+	GTK				lxappearance
+	Wallpaper		nitrogen	
+Sound				pavucontrol
+
+Pizzadesk
+	Exit GUI		exitgui
+	Reload GUI		killall dwm
+
+Lock				slock -m "Linux   |   Locked on  $(clock)"
+Suspend				systemctl suspend
+Reboot				pizzareboot
+Shutdown			pizzashutdown
+EOF

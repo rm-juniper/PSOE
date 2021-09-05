@@ -1,0 +1,10 @@
+#!/bin/sh
+export PATH=$PATH:$HOME/.local/bin:$HOME/.local/bin/barscripts:$HOME/.local/bin/settings
+nitrogen --restore &
+dwmblocks &
+nm-applet &
+dunst &
+picom &
+xautolock -time 10 -locker "slock -m 'Linux   |   Locked on $(clock)'" &
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+dwm_runtime.sh
