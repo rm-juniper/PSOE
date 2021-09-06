@@ -1,13 +1,11 @@
 #!/bin/bash
-cp -rf ../cfg/dunst ~/.config/
-cp -rf ../cfg/picom.conf ~/.config/
-cp ../cfg/Xresources ~/.Xresources
-cp ../cfg/xinitrc ~/.xinitrc
+sudo mkdir /usr/share/backgrounds & sudo cp ../img/default_linux.png /usr/share/backgrounds
 #Install Configs
 cp -rf ../cfg/dunst ~/.config/
 cp -rf ../cfg/picom.conf ~/.config/
 cp ../cfg/Xresources ~/.Xresources
 cp ../cfg/xinitrc ~/.xinitrc
+cp -rf ../cfg/nitrogen ~/.config/
 
 #Install PSOE
 cp -rf ../bin ~/.local/
