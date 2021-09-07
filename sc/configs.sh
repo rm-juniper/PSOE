@@ -9,7 +9,7 @@ cp ../cfg/xinitrc ~/.xinitrc
 cp -rf ../cfg/nitrogen ~/.config/
 
 #Install PSOE
-cp -rf ../bin ~/.local/
+cp -rf ../bin ~/.local/bin
 cd ../src/dwm && sudo make clean install && rm -f config.h && cd ..
 cd dwmblocks && sudo make clean install && rm -f blocks.h && cd ..
 cd dmenu && sudo make clean install && rm -f config.h && cd ..
